@@ -3,16 +3,19 @@
 
 
 If want to go back to a commit throwing away our last chages:
+
 git reset --hard
 
 The hystory keeps there forever. So take care with what you commit
+
 If we accidently commit something private (e.g. a password), google for a solution..
 
 REMOTES
+
 All folder that are not on the current .git space. Could be a url (github), but also another folder in our computer
 With a remote, we can:
- Send things from our current folder: git push
- Update our folder with the remote commetn: git pull
+ - Send things from our current folder: git push
+ - Update our folder with the remote commetn: git pull
 
 ********************************************************************
 To create an empty repo: do not click on add LICENSE nor README!!
